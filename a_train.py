@@ -186,7 +186,7 @@ if __name__ == '__main__':
                              help='The noisy ratio of the loading dataset.')
     group_train.add_argument('--exp_id', type=int, default=1,
                              help='The experimental id. fNIRS_2: 1-12; Sleep/HHAR: 1-6.')
-    group_train.add_argument('--gpu_id', type=int, default=3,
+    group_train.add_argument('--gpu_id', type=int, default=0,
                              help='The gpu id.')
     group_train.add_argument('--batch_size', type=int, default=64,
                              help='Number of batches.')

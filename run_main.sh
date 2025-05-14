@@ -1,10 +1,11 @@
 #!/bin/bash
 
+# 3. Dataset Generation
 python -u pipeline/b_fNIRS_database_generate.py --load_dir /data/eeggroup/public_dataset/ --save_dir /data/eeggroup/CL_database/ > ~/CL_logs/database_fNIRS_2.log
 python -u pipeline/b_Sleep_database_generate.py --load_dir /data/eeggroup/public_dataset/ --save_dir /data/eeggroup/CL_database/ > ~/CL_logs/database_Sleep.log
 python -u pipeline/b_HHAR_database_generate.py --load_dir /data/eeggroup/public_dataset/ --save_dir /data/eeggroup/CL_database/ > ~/CL_logs/database_HHAR.log
 
-
+# 4. Run the model
 for r in 0 0.2 0.4
 do
   for i in {1..12}
