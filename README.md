@@ -4,7 +4,7 @@
 
 ### [<a href="https://openreview.net/pdf?id=jCPufQaHvb" target="_blank">Paper</a>] [<a href="https://neurips.cc/media/neurips-2024/Slides/93973.pdf" target="_blank">Slides</a>] [<a href="https://recorder-v3.slideslive.com/#/share?share=94277&s=6e9b8303-8878-4d38-95d7-74706c75117a" target="_blank">Video</a>] [<a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93973.png?t=1732180648.1711104" target="_blank">Poster</a>]
 
-![case](https://github.com/user-attachments/assets/c6c904d1-7273-4f1c-a7be-fe0aacaf5be3)
+![case](https://github.com/user-attachments/assets/47fc6336-5735-490a-99e2-5902f985fa52)
 
 _**[Junru Chen](https://mrnobodycali.github.io/), [Tianyu Cao](http://tiyacao.com/), Jing Xu, [Jiahe Li](https://erikaqvq.github.io/), Zhilong Chen, Tao Xiao, [Yang Yang<sup>†</sup>](http://yangy.org/)**_
 
@@ -17,7 +17,7 @@ Zhejiang University
 **TL;DR:** Con4m is a consistency learning framework, which effectively utilizes contextual information more conducive 
 to discriminating consecutive segments in segmented TSC tasks, while harmonizing inconsistent boundary labels for training.  <br>
 
-![model](https://github.com/user-attachments/assets/9101acbf-dec2-4827-a885-a9c4ce143976)
+![model](https://github.com/user-attachments/assets/2c44d1b7-8bd5-4dc4-8d9b-89b82a055e50)
 
 ## 🔥 Updates
 - __[2025.05.14]__: Update the detailed README.
